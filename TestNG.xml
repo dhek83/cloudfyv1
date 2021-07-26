@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cloudfy">
+
+    <listeners>
+
+    <listener class-name="com.inetbanking.utilities.Reporting"/>
+    
+     </listeners>
+
+   <test name= "cloudfy Test">
+    <parameter name="browser" value="chrome" />
+   <classes>
+      <class name="com.inetbanking.testCases.TC_Login_Test001" />   
+     <class name="com.inetbanking.testCases.TC_Login_DDT_002" />
+       <class name="com.inetbanking.testCases.TC_Register_Test003"   />
+     <class name="com.inetbanking.testCases.TC_Categ_Test004"   /> 
+   </classes> 
+   
+   
+               
+  </test>
+
+  <test name= "cloudfy Test1">
+   <parameter name="browser" value="firefox" />
+   <classes>
+  <!--  <class name="com.inetbanking.testCases.TC_Login_Test001" />    -->
+    <!--  <class name="com.inetbanking.testCases.TC_Login_DDT_002" />   -->
+     <!--  <class name="com.inetbanking.testCases.TC_Register_Test003" /> -->
+   
+   </classes> 
+               
+</test>
+
+
+</suite>

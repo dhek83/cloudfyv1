@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 110.356 sec <<< FAILURE! - in TestSuite
+loginDDT(com.inetbanking.testCases.TC_Login_DDT_002)  Time elapsed: 6.284 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.inetbanking.testCases.TC_Login_DDT_002.loginDDT(TC_Login_DDT_002.java:66)
+
+loginDDT(com.inetbanking.testCases.TC_Login_DDT_002)  Time elapsed: 6.476 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.inetbanking.testCases.TC_Login_DDT_002.loginDDT(TC_Login_DDT_002.java:66)
+
+loginDDT(com.inetbanking.testCases.TC_Login_DDT_002)  Time elapsed: 7.069 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.inetbanking.testCases.TC_Login_DDT_002.loginDDT(TC_Login_DDT_002.java:66)
+
+register(com.inetbanking.testCases.TC_Register_Test003)  Time elapsed: 4.117 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.inetbanking.testCases.TC_Register_Test003.register(TC_Register_Test003.java:52)
+
